@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <title>My Favourite Recipes</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/beef-stir-fry.html">Quick Beef Stir Fry</a></li>
-        <li><a href="recipes/banana-bread.html">Banana Chocolate Chip Bread</a></li>
-        <li><a href="recipes/mango-drink.html">Easy Mango Sago Drink</a></li>
-    </ul>
-    
+    <h1 id="title">My Favourite Recipes</h1>
+    <div class="container">
+        <div class="box">
+            <a href="recipes/beef-stir-fry.html"><img src="img/beef" alt="beef stir-fry"></a>
+            <div class="content">
+                <a href="recipes/beef-stir-fry.html"><p class="name">Quick Beef Stir-Fry Recipe</p></a>
+                <p class="made_by">Submitted by&nbsp;<a class="made" href="recipes/beef-stir-fry.html">inesgosner</a></p>
+                <p class="description"><em>Quick and easy beef stir-fry recipe. I make this on my busiest weeknights.</em>
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="recipes/banana-bread.html"><img src="img/banana" alt="yummy chocolate chip banana bread"></a>
+            <div class="content">
+                <a href="recipes/banana-bread.html"><p class="name">Banana Chocolate Chip Bread</p></a>
+                <p class="made-by">Submitted by&nbsp;<a class="made" href="recipes/banana-bread.html">iggytakahashi</a></p>
+                <p class="description"> <em>This chocolate chip banana bread is super moist and tastes amazing!</em>
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="recipes/mango-drink.html"><img src="img/mango.jpg" alt="insanely delicious mango with sago dessert"></a>
+            <div class="content">
+                <a href="recipes/mango-drink.html"><p class="name">Easy Mango Drink Drink</p></a>
+                <p class="made-by">Submitted by&nbsp;<a class="made" href="recipes/mango-drink.html">Shivesh Bhatia</a></p>
+                <p class="description"><em>Make sure to make extra because you won't believe how delicious it is!</em>    
+                </p>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
